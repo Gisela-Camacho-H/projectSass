@@ -1,0 +1,11 @@
+@import 'variables';
+
+body{
+    background-color: $secondary-color;
+}
+p{
+    color: $primary-color;
+    margin-top: $lg;
+    font-size: $md;
+    padding-left: $lg;
+}
