@@ -1,11 +1,120 @@
 @import 'variables';
 
 body{
+    background-color:$primary-color;
+    margin: 0;
+}
+nav{
+    height: 80px;
+    width: 100%;
     background-color: $secondary-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:fixed;
+    top:0px;
 }
-p{
-    color: $primary-color;
-    margin-top: $lg;
+footer{
+    background-color: $secondary-color;
+    color: $tertiary-color;
+    height: 10vh;
+    text-align: center;
+    font-size: 3vw;
+    font-family: $font2;
+}
+#home-hero{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vw;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/340/791/non_2x/pastel-rainbow-blurry-background-with-sparks-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    font-family: $font;
+}
+a:hover{
+    color:$primary-color;
     font-size: $md;
-    padding-left: $lg;
 }
+#home-hero p{
+    font-size: 3.5vw;
+}
+p:hover{
+    color:$primary-color;
+    font-size: $md;
+}
+#home-hero h1{
+    font-size: $lg;
+}
+#video-sea{
+    margin: 2vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#projects{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.text-nav{
+    color: $tertiary-color;
+    text-decoration: none;
+    font-size: 3vw;
+    margin-right:20px;
+    margin-left:20px;
+    font-family: $font;
+}
+.me{
+    width:15vw;
+}
+.text-nav img{
+    width: $md;
+    height: auto;
+}
+.pro img{
+    width: 25vw;
+    margin: 1vw;
+}
+.pro{
+    background-color: $secondary-color;
+    width: 30vw;
+    text-align: center;
+    color: $tertiary-color;
+    font-size: 3vw;
+    font-family: $font2 ;
+}
+@media screen and (max-width: 600px) {
+    footer{
+        height: 5vh;
+        font-size: $md;
+    }
+    #home-hero p{
+        font-size: $md;
+    }
+    #home-hero h1{
+        font-size: 6vw;
+    }
+    #video-sea{
+        margin: $lg;
+    }
+    #projects{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pro{
+        width:90%;
+        margin: $md;
+        font-size: $lg;
+    }
+    .pro img{
+        width: 70vw;
+        margin-bottom: $md;
+    }
+    .text-nav{
+        font-size: $md;
+    }
+  }
