@@ -20,7 +20,7 @@ footer{
     height: 10vh;
     text-align: center;
     font-size: 3vw;
-    font-family: $font;
+    font-family: $tou;
 }
 #home-hero{
     display:flex;
@@ -33,7 +33,7 @@ footer{
     background-size: cover;
     height: 500px;
     text-align: center;
-    font-family: $font;
+    font-family: $tou;
 }
 a:hover{
     color:$primary-color;
@@ -75,7 +75,7 @@ p:hover{
     font-size: 3vw;
     margin-right:20px;
     margin-left:20px;
-    font-family: $font;
+    font-family: $tou;
 }
 .me{
     width:15vw;
@@ -94,7 +94,7 @@ p:hover{
     text-align: center;
     color: $tertiary-color;
     font-size: 3vw;
-    font-family: $font2 ;
+    font-family: $bal;
 }
 @media screen and (max-width: 600px) {
     footer{
