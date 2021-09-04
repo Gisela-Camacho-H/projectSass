@@ -49,7 +49,7 @@ p:hover{
 #home-hero h1{
     font-size: $lg;
 }
-#video-sea{
+.video{
     margin: 2vw;
     display:flex;
     align-items: center;
@@ -77,18 +77,18 @@ p:hover{
     margin-left:20px;
     font-family: $tou;
 }
-.me{
+#home-photo{
     width:15vw;
 }
 .text-nav img{
     width: $md;
     height: auto;
 }
-.pro img{
+.card img{
     width: 25vw;
     margin: 1vw;
 }
-.pro{
+.card{
     background-color: $secondary-color;
     width: 30vw;
     text-align: center;
@@ -110,23 +110,23 @@ p:hover{
     #home-hero h1{
         font-size: 6vw;
     }
-    #video-sea{
+    .video{
         margin: $lg;
     }
     #projects{
         flex-direction: column;
         justify-content: center;
     }
-    .pro{
+    .card{
         width:90%;
         margin: $md;
         font-size: $lg;
     }
-    .pro img{
+    .card img{
         width: 70vw;
         margin-bottom: $md;
     }
     .text-nav{
         font-size: $md;
     }
-  }
+}

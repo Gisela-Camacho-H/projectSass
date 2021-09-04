@@ -55,7 +55,7 @@ p:hover {
   font-size: 5vw;
 }
 
-#video-sea {
+.video {
   margin: 2vw;
   display: flex;
   align-items: center;
@@ -88,7 +88,7 @@ p:hover {
   font-family: "Tourney", cursive;
 }
 
-.me {
+#home-photo {
   width: 15vw;
 }
 
@@ -97,12 +97,12 @@ p:hover {
   height: auto;
 }
 
-.pro img {
+.card img {
   width: 25vw;
   margin: 1vw;
 }
 
-.pro {
+.card {
   background-color: black;
   width: 30vw;
   text-align: center;
@@ -129,7 +129,7 @@ p:hover {
     font-size: 6vw;
   }
 
-  #video-sea {
+  .video {
     margin: 5vw;
   }
 
@@ -138,13 +138,13 @@ p:hover {
     justify-content: center;
   }
 
-  .pro {
+  .card {
     width: 90%;
     margin: 4vw;
     font-size: 5vw;
   }
 
-  .pro img {
+  .card img {
     width: 70vw;
     margin-bottom: 4vw;
   }
