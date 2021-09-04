@@ -102,13 +102,13 @@ p:hover{
         font-size: $md;
     }
     #home-hero p{
-        font-size: $md;
+        font-size: $lg;
     }
     #home-hero{
         height: 300px;
     }
     #home-hero h1{
-        font-size: 6vw;
+        font-size: 9vw;
     }
     .video{
         margin: $lg;
@@ -116,6 +116,9 @@ p:hover{
     #projects{
         flex-direction: column;
         justify-content: center;
+    }
+    #home-photo{
+        display:none;
     }
     .card{
         width:90%;

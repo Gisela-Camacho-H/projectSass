@@ -118,7 +118,7 @@ p:hover {
   }
 
   #home-hero p {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   #home-hero {
@@ -126,7 +126,7 @@ p:hover {
   }
 
   #home-hero h1 {
-    font-size: 6vw;
+    font-size: 9vw;
   }
 
   .video {
@@ -136,6 +136,10 @@ p:hover {
   #projects {
     flex-direction: column;
     justify-content: center;
+  }
+
+  #home-photo {
+    display: none;
   }
 
   .card {
