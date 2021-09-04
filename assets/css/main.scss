@@ -60,6 +60,15 @@ p:hover{
     justify-content: space-around;
     width: 100%;
 }
+#cert{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cert img{
+    height: 500px;
+}
 .text-nav{
     color: $tertiary-color;
     text-decoration: none;
@@ -94,6 +103,9 @@ p:hover{
     }
     #home-hero p{
         font-size: $md;
+    }
+    #home-hero{
+        height: 300px;
     }
     #home-hero h1{
         font-size: 6vw;

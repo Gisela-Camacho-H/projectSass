@@ -68,6 +68,17 @@ p:hover {
   width: 100%;
 }
 
+#cert {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cert img {
+  height: 500px;
+}
+
 .text-nav {
   color: white;
   text-decoration: none;
@@ -108,6 +119,10 @@ p:hover {
 
   #home-hero p {
     font-size: 4vw;
+  }
+
+  #home-hero {
+    height: 300px;
   }
 
   #home-hero h1 {
